@@ -32,6 +32,6 @@ The following maps illustrate the spatial distribution of malaria risk in Kenya.
 
 - **Malaria Risk Map 2020**: This map displays the estimated malaria risk for 2020, identifying regions with high risk.
 
-![Malaria Risk 2024](maps/malaria_risk_2024.png)
+![Malaria Risk 2020]([maps/malaria_risk_2024.png](https://github.com/NeemaChari/Malaria-risk-modelling/blob/main/Malaria%20risk%20map%20Rapid%20Diagnostic%20Test%20interventions%20included%20in%20the%20model.png))
 # Acknowledgments
 This project is inspired by and adapted from the work of [Paula Moraga]((https://www.paulamoraga.com/book-geospatial/sec-intro.html)). The methodology and code were referenced and adapted for use in this specific context.
