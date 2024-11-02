@@ -22,5 +22,16 @@ The project also uses geographic shapefiles for mapping the spatial distribution
 ## Methodology
 The spatial modeling approach used in this project is adapted from Paula Moraga's work on disease mapping and spatial epidemiology. The R code used here follows similar procedures, with modifications to apply the model to malaria data in Kenya.
 
+## Results
+
+This analysis includes spatial visualizations of malaria risk across different regions. The maps provide insights into the distribution of malaria risk among children under five and show the areas of high and low risk.
+
+### Malaria Risk Maps
+
+The following maps illustrate the spatial distribution of malaria risk in Kenya. These visualizations highlight regions with varying levels of malaria incidence, which can guide targeted intervention efforts.
+
+- **Malaria Risk Map 2020**: This map displays the estimated malaria risk for 2020, identifying regions with high risk.
+
+![Malaria Risk 2024](maps/malaria_risk_2024.png)
 # Acknowledgments
 This project is inspired by and adapted from the work of [Paula Moraga]((https://www.paulamoraga.com/book-geospatial/sec-intro.html)). The methodology and code were referenced and adapted for use in this specific context.
