@@ -4,6 +4,13 @@ Spatial modelling of malaria risk among children under 5 in Kenya
 # Project Overview
 This project uses spatial modeling techniques to assess malaria risk among children under five in Kenya. The analysis is based on health data from the Kenya Demographic and Health Survey (KDHS) and incorporates geographic data for spatial analysis.
 
+# Objectives
+## Main Objective
+To model malaria risk among children under five in Kenya.
+## Specific Objectives
+1.	To develop a spatial model to assess the distribution of malaria risk among children under five in Kenya. Using both rapid diagnostic test and microscopy test results
+2.	To compare the spatial patterns and distributions of malaria risk derived from rapid diagnostic tests versus microscopy diagnostic methods among Kenyan children under five.
+
 ## 1. Data
 The primary dataset used for this analysis is sourced from the **Kenya Demographic and Health Survey (KDHS)** 2020. This dataset contains information on health indicators, demographic data, and other factors relevant to malaria risk among children under five.
 
