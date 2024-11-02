@@ -1,34 +1,43 @@
-# Malaria-risk-modelling
-Spatial modelling of malaria risk among children under 5 in Kenya
+# Malaria-Risk-Modelling
 
-# Project Overview
-This project uses spatial modeling techniques to assess malaria risk among children under five in Kenya. The analysis is based on health data from the Kenya Demographic and Health Survey (KDHS) and incorporates geographic data for spatial analysis.
+## Project Overview
+This project uses spatial modeling techniques to assess malaria risk among children under five in Kenya. The analysis is based on health data from the Kenya Demographic and Health Survey (KDHS) and incorporates geographic data for spatial analysis. The goal is to identify areas with high malaria risk and provide insights that could inform targeted malaria interventions.
 
-# Objectives
-## Main Objective
-To model malaria risk among children under five in Kenya.
-## Specific Objectives
-1.	To develop a spatial model to assess the distribution of malaria risk among children under five in Kenya. Using both rapid diagnostic test and microscopy test results
-2.	To compare the spatial patterns and distributions of malaria risk derived from rapid diagnostic tests versus microscopy diagnostic methods among Kenyan children under five.
+## Objectives
 
-## 1. Data
-The primary dataset used for this analysis is sourced from the **Kenya Demographic and Health Survey (KDHS)** 2020. This dataset contains information on health indicators, demographic data, and other factors relevant to malaria risk among children under five.
+### Main Objective
+- **To model malaria risk among children under five in Kenya.**
 
-Due to the sensitive nature of the dataset, it is **not shared publicly** in this repository. However, interested users can request access to the KDHS data from the [DHS Program website] Once access is granted, the data can be used to reproduce the analysis presented in this project.
+### Specific Objectives
+1. **To develop a spatial model** to assess the distribution of malaria risk among children under five in Kenya using both rapid diagnostic tests (RDT) and microscopy test results.
+2. **To compare spatial patterns** of malaria risk based on RDT versus microscopy diagnostic methods.
+
+## Data
+
+### 1. Health Data
+The primary dataset is sourced from the **Kenya Demographic and Health Survey (KDHS) 2020**, which includes information on health indicators, demographic data, and other factors relevant to malaria risk among children under five. Due to the sensitive nature of this dataset, it is not shared publicly in this repository. However, users can request access to the KDHS data from the [DHS Program website](https://dhsprogram.com).
 
 ### 2. Geographic Shapefiles
-The project also uses geographic shapefiles for mapping the spatial distribution of malaria risk. The shapefiles include the administrative boundaries of Kenya.
+Geographic shapefiles containing the administrative boundaries of Kenya are used to map and analyze the spatial distribution of malaria risk. These shapefiles allow for the visualization of malaria prevalence across different regions.
 
 ## Methodology
-The spatial modeling approach used in this project is adapted from Paula Moraga's work on disease mapping and spatial epidemiology. The R code used here follows similar procedures, with modifications to apply the model to malaria data in Kenya.
+
+The spatial modeling approach in this project is inspired by Paula Moraga's work on disease mapping and spatial epidemiology. The **BYM model** (Besag-York-Mollié) is adapted here to model spatial risk. The R code uses packages such as `INLA` for Bayesian inference, `sp` for spatial data handling, and `ggplot2` for visualization. Specific steps include:
+
+1. **Data Preprocessing**: Cleaning and structuring KDHS and shapefile data.
+2. **Spatial Modeling**: Using Bayesian spatial models to estimate malaria risk across regions.
+3. **Visualization**: Creating maps to illustrate areas of high and low malaria risk, facilitating insights for public health interventions.
 
 ## Results
 
-This analysis includes spatial visualizations of malaria risk across different regions. The maps provide insights into the distribution of malaria risk among children under five and show the areas of high and low risk.
-
 ### Malaria Risk Maps
+This analysis includes spatial visualizations of malaria risk across different regions. These maps reveal areas with high malaria prevalence, which can help guide malaria control efforts. Below are example visualizations:
 
-The provided maps illustrate the spatial distribution of malaria risk in Kenya. These visualizations highlight regions with varying levels of malaria incidence, which can guide targeted intervention efforts.
+- **Malaria Risk Map (2024)**: Displays estimated malaria risk for children under five in Kenya.
+- **Intervention Coverage Map**: Shows regions covered by malaria control interventions.
 
-# Acknowledgments
-This project is inspired by and adapted from the work of [Paula Moraga]((https://www.paulamoraga.com/book-geospatial/sec-intro.html)). The methodology and code were referenced and adapted for use in this specific context.
+![Malaria Risk Map 2024](maps/malaria_risk_2024.png)
+![Intervention Coverage Map](maps/intervention_coverage.png)
+
+## Acknowledgments
+This project is inspired by and adapted from the work of Paula Moraga, whose methodologies for disease mapping and spatial epidemiology served as a reference. Special thanks to the DHS Program for providing access to health data that made this analysis possible.
