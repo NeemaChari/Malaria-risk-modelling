@@ -6,7 +6,7 @@ This project uses spatial modeling techniques to assess malaria risk among child
 ## Objectives
 
 ### Main Objective
-- **To model malaria risk among children under five in Kenya.**
+**To model malaria risk among children under five in Kenya.**
 
 ### Specific Objectives
 1. **To develop a spatial model** to assess the distribution of malaria risk among children under five in Kenya using both rapid diagnostic tests (RDT) and microscopy test results.
