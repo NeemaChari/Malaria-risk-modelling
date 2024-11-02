@@ -32,7 +32,7 @@ The spatial modeling approach in this project is inspired by Paula Moraga's work
 
 ### Malaria Risk Maps
 This analysis includes spatial visualizations of malaria risk across different regions. These maps reveal areas with high malaria risk, which can help guide malaria control efforts.
-![Malaria Risk Map 2020](maps/malaria_risk_2020.png)
+![Malaria Risk Map 2020](Malaria risk map Rapid Diagnostic Test without interventions included in the model.png)
 
 
 ## Acknowledgments
